@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Carousel Studies</title>
+</head>
+<body>
+      <main>
+            <!--Estrutura em volta de tudo que estou construindo-->
+            <div class="container d-flex justify-content-center p-3">
+                  <button class="arrow-left control" aria-label="Previous Image">Left</button>
+                  <!--Largura fixa-->
+                  <div class="gallery-wrapper">
+                        <div class="gallery">
+                              <img class="item current-item" src="https://source.unsplash.com/random/250x250/?beach" alt="Beach Images">
+                              <img class="item" src="https://source.unsplash.com/random/250x250/?candy" alt="Candy Images">
+                              <img class="item" src="https://source.unsplash.com/random/250x250/?star" alt="Star Images">
+                              <img class="item" src="https://source.unsplash.com/random/250x250/?rabbit" alt="Rabbit Images">
+                              <img class="item" src="https://source.unsplash.com/random/250x250/?gamer" alt="Gamer Images">
+                        </div>                        
+                  </div>
+                  
+                  <button class="arrow-right control" aria-label="Next Image">Right</button>
+            </div>           
+      </main>
+    
+      
+
+
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/main.js"></script>
+
+</body>
+</html>
